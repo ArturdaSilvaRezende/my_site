@@ -6,7 +6,8 @@ O objetivo desse projeto, é contar um pouco sobre mim e minhas habilidades, div
 
 ## Build Setup
 
--- Digite "yarn" ou "yarn i" = Para instalar todas as dependências
+#### Caso você tenha clonado este repositório, em seu terminal, digite o seguinte comando:
+##### yarn ou yarn i = Para instalar todas as dependências
 
 ### `yarn start`
 
