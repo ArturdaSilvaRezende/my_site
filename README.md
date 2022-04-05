@@ -6,6 +6,8 @@ O objetivo desse projeto, é contar um pouco sobre mim e minhas habilidades, div
 
 ## Build Setup
 
+-- Digite "yarn" ou "yarn i" = Para instalar todas as dependências
+
 ### `yarn start`
 
 Para execultar a aplicação, em seguida o projeto vai abrir no browser na porta 3000 = [http://localhost:3000].
