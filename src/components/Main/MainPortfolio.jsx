@@ -16,6 +16,8 @@ import Ustora from "./img/ustora.jpg";
 import WebHost from "./img/webhost.jpg";
 import PizzaDelicious from "./img/pizza-delicious.jpg";
 import SpaceTourism from "./img/space.jpg";
+import PokeApi from "./img/pokeapi.jpg";
+import WeatherApp from "./img/weather-app.jpg";
 import FrontendMentor from "./img/perfil_frontendmentor.PNG";
 
 const MainPortfolio = (props) => {
@@ -117,7 +119,7 @@ const MainPortfolio = (props) => {
           </figcaption>
         </PortfolioFigure>
 
-        {/*  WebHost */}
+        {/* WebHost */}
         <PortfolioFigure>
           <img src={WebHost} alt="WebHost" />
           <figcaption>
@@ -148,7 +150,7 @@ const MainPortfolio = (props) => {
           </figcaption>
         </PortfolioFigure>
 
-        {/*  PizzaDelicious */}
+        {/* PizzaDelicious */}
         <PortfolioFigure>
           <img src={PizzaDelicious} alt="PizzaDelicious" />
           <figcaption>
@@ -179,7 +181,7 @@ const MainPortfolio = (props) => {
           </figcaption>
         </PortfolioFigure>
 
-        {/*  SpaceTourism*/}
+        {/* SpaceTourism */}
         <PortfolioFigure>
           <img src={SpaceTourism} alt="SpaceTourism" />
           <figcaption>
@@ -204,6 +206,68 @@ const MainPortfolio = (props) => {
                   rel="noreferrer"
                 >
                   Space Tourism
+                </a>
+              </li>
+            </ul>
+          </figcaption>
+        </PortfolioFigure>
+
+        {/* Pokeapi */}
+        <PortfolioFigure>
+          <img src={PokeApi} alt="PokeApi" />
+          <figcaption>
+            <h2>Pokeapi</h2>
+            <p>Visite o site ou Github do projeto através dos links abaixo.</p>
+            <ul>
+              <li>
+                <span>Site: </span>
+                <a
+                  href="https://pokeapi-artur.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Pokeapi
+                </a>
+              </li>
+              <li>
+                <span>Github: </span>
+                <a
+                  href="https://github.com/ArturdaSilvaRezende/PokeApi/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Pokeapi
+                </a>
+              </li>
+            </ul>
+          </figcaption>
+        </PortfolioFigure>
+
+        {/* weather app */}
+        <PortfolioFigure>
+          <img src={WeatherApp} alt=" WeatherApp" />
+          <figcaption>
+            <h2>React Weather App</h2>
+            <p>Visite o site ou Github do projeto através dos links abaixo.</p>
+            <ul>
+              <li>
+                <span>Site: </span>
+                <a
+                  href="https://react-weather-app-artur.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  React Weather App
+                </a>
+              </li>
+              <li>
+                <span>Github: </span>
+                <a
+                  href="https://github.com/ArturdaSilvaRezende/WeatherApp/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  React Weather App
                 </a>
               </li>
             </ul>

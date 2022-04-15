@@ -141,7 +141,6 @@ const MainSkills = (props) => {
               <li>Configuração do entry point / output</li>
               <li>Configuração dos loaders / babel</li>
               <li>Criação dos scripts no arquivo json</li>
-              <li>Extend / Inheritance</li>
               <li>Execução de comandos através do terminal - CLI</li>
             </ul>
           </figcaption>

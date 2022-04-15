@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.77cf8086.js",
+    "main.js": "/static/js/main.a88c4e9c.js",
     "static/media/pizza-delicious.jpg": "/static/media/pizza-delicious.7cfb6e880b24837ac1fe.jpg",
+    "static/media/pokeapi.jpg": "/static/media/pokeapi.628d9bc4997171ecbe8d.jpg",
     "static/media/videograph-master.png": "/static/media/videograph-master.568784f8acd58a6c6b89.png",
     "static/media/space.jpg": "/static/media/space.e911605ddb7a06a49740.jpg",
+    "static/media/weather-app.jpg": "/static/media/weather-app.1a1368f08075f5e69c56.jpg",
     "static/media/grad-school.jpg": "/static/media/grad-school.4fe41782b651b709c931.jpg",
     "static/media/artur_about_02.jpg": "/static/media/artur_about_02.68a20dd62bc4ae9c50fb.jpg",
     "static/media/webhost.jpg": "/static/media/webhost.d1930cb143b33e1a6e06.jpg",
@@ -13,9 +15,9 @@
     "static/media/artur-da-silva-rezende.jpg": "/static/media/artur-da-silva-rezende.f0478bd57b843b480a04.jpg",
     "static/media/perfil_frontendmentor.PNG": "/static/media/perfil_frontendmentor.9a4c4b0e9913587beb1e.PNG",
     "index.html": "/index.html",
-    "main.77cf8086.js.map": "/static/js/main.77cf8086.js.map"
+    "main.a88c4e9c.js.map": "/static/js/main.a88c4e9c.js.map"
   },
   "entrypoints": [
-    "static/js/main.77cf8086.js"
+    "static/js/main.a88c4e9c.js"
   ]
 }
