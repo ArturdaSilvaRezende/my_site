@@ -18,6 +18,7 @@ import PizzaDelicious from "./img/pizza-delicious.jpg";
 import SpaceTourism from "./img/space.jpg";
 import PokeApi from "./img/pokeapi.jpg";
 import WeatherApp from "./img/weather-app.jpg";
+import PlutonTheme from "./img/pluton-theme-react.png";
 import FrontendMentor from "./img/perfil_frontendmentor.PNG";
 
 const MainPortfolio = (props) => {
@@ -206,6 +207,37 @@ const MainPortfolio = (props) => {
                   rel="noreferrer"
                 >
                   Space Tourism
+                </a>
+              </li>
+            </ul>
+          </figcaption>
+        </PortfolioFigure>
+
+        {/* Pluton Theme */}
+        <PortfolioFigure>
+          <img src={PlutonTheme} alt="PlutonTheme" />
+          <figcaption>
+            <h2>Pluton Theme</h2>
+            <p>Visite o site ou Github do projeto através dos links abaixo.</p>
+            <ul>
+              <li>
+                <span>Site: </span>
+                <a
+                  href="https://pluton-theme-react.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Pluton Theme
+                </a>
+              </li>
+              <li>
+                <span>Github: </span>
+                <a
+                  href="https://github.com/ArturdaSilvaRezende/Pluton-Theme-React/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Pluton Theme
                 </a>
               </li>
             </ul>

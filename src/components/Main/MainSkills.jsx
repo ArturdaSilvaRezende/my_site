@@ -19,6 +19,7 @@ import webpack from "./img/webpack.png";
 import mysql from "./img/mysql.png";
 import git from "./img/git.png";
 import react from "./img/react.png";
+import typescript from "./img/typescript.png";
 import npm from "./img/npm.png";
 import yarn from "./img/yarn.png";
 
@@ -204,6 +205,39 @@ const MainSkills = (props) => {
             </ul>
           </figcaption>
           <img src={react} alt="react" />
+        </SkillFigure>
+
+        {/* typescript */}
+        <SkillFigure>
+          <figcaption>
+            <h2>TypeScript</h2>
+            <ul>
+              <li>
+                Tipos de Dados:
+                <span>
+                  String, Number, Boolean, Array, Tuple, Object, Enum, Null,
+                  Undefined, Any, Unknown, Void, Never.
+                </span>
+              </li>
+              <li>
+                Tipos de atribuição
+                <span>Explícito, Implícito.</span>
+              </li>
+              <li>Tipo "Alias"</li>
+              <li>Interface</li>
+              <li>Tipo "Union"</li>
+              <li>
+                Funções:
+                <span>
+                  Tipagem de funções, retorno de tipos, tipagem de parâmetro
+                </span>
+              </li>
+              <li>Casting com "as" ou "&lt;&gt;"</li>
+              <li>Generics</li>
+              <li>Tipos de utilitários</li>
+            </ul>
+          </figcaption>
+          <img src={typescript} alt="typescript" />
         </SkillFigure>
 
         {/* npm */}

@@ -19,8 +19,14 @@ export const SkillFigure = styled.figure`
   position: relative;
   border-left: 1px solid var(--gray);
   border-bottom: 1px solid var(--gray);
-  padding: 20px 15px;
+  padding: 20px 12px;
   width: 50%;
+
+  &:last-child {
+    border-right: 1px solid var(--gray);
+    right: -0.5px;
+    border-bottom: none;
+  }
 
   &::before {
     position: absolute;
@@ -83,6 +89,10 @@ export const SkillFigure = styled.figure`
   @media screen and (max-width: 767px) {
     width: 100%;
 
+    &:last-child {
+      border-right: none;
+      right: 0;
+    }
     img {
       top: 15px;
       right: 0;
