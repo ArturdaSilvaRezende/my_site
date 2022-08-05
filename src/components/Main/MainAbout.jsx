@@ -16,7 +16,7 @@ const MainAbout = (props) => {
         <img src={ArturAbout01} alt="artur_da_silva_rezende_01" />
         <figcaption>
           Me chamo Artur da Silva Rezende, sou graduado em Análise e
-          Desenvolvilmento de Sistemas pela FANAP - Faculdade Nossa Senhora
+          Desenvolvimento de Sistemas pela FANAP - Faculdade Nossa Senhora
           Aparecida, o término do curso foi agora no final de 2019 e colamos
           grau em Maio de 2020 por causa do "covid-19". Eu tive contato com as
           tecnologias de desenvolvimento web a partir do terceiro período, no
