@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.1c44b8d0.js",
+    "main.js": "/static/js/main.1fc19611.js",
     "static/media/pluton-theme-react.png": "/static/media/pluton-theme-react.2f6967681a7771979794.png",
     "static/media/pizza-delicious.jpg": "/static/media/pizza-delicious.7cfb6e880b24837ac1fe.jpg",
     "static/media/pokeapi.jpg": "/static/media/pokeapi.628d9bc4997171ecbe8d.jpg",
@@ -16,9 +16,9 @@
     "static/media/artur-da-silva-rezende.jpg": "/static/media/artur-da-silva-rezende.f0478bd57b843b480a04.jpg",
     "static/media/perfil_frontendmentor.PNG": "/static/media/perfil_frontendmentor.9a4c4b0e9913587beb1e.PNG",
     "index.html": "/index.html",
-    "main.1c44b8d0.js.map": "/static/js/main.1c44b8d0.js.map"
+    "main.1fc19611.js.map": "/static/js/main.1fc19611.js.map"
   },
   "entrypoints": [
-    "static/js/main.1c44b8d0.js"
+    "static/js/main.1fc19611.js"
   ]
 }
