@@ -77,9 +77,9 @@ const Footer = (prosp) => {
           <figcaption>
             <FooterCurriculo>
               <h2>Currículo Físico</h2>
-              
+
               <a
-                href="https://drive.google.com/file/d/1bFxZgMiM-vpW-8rNlsm0QIDA97h-X9Ux/view?usp=sharing/"
+                href="https://drive.google.com/file/d/1pYTg4FwBGEZYNBrwpNFT2VW9DvmuaYzy/view?usp=sharing/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -87,7 +87,7 @@ const Footer = (prosp) => {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/18r5XpsHcF5pEtPLh9GT0wrCG8SBBLqY-/view?usp=sharing/"
+                href="https://drive.google.com/file/d/1rOsAykMiUXL98vdSO1tIVKmFZBKKIgiL/view?usp=sharing/"
                 target="_blank"
                 rel="noreferrer"
               >

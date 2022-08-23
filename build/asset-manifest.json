@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.1fc19611.js",
+    "main.js": "/static/js/main.89f05f4f.js",
     "static/media/pluton-theme-react.png": "/static/media/pluton-theme-react.2f6967681a7771979794.png",
     "static/media/pizza-delicious.jpg": "/static/media/pizza-delicious.7cfb6e880b24837ac1fe.jpg",
     "static/media/pokeapi.jpg": "/static/media/pokeapi.628d9bc4997171ecbe8d.jpg",
     "static/media/videograph-master.png": "/static/media/videograph-master.568784f8acd58a6c6b89.png",
+    "static/media/artur-da-silva-rezende.png": "/static/media/artur-da-silva-rezende.2b5a0813dfecdd55988a.png",
     "static/media/space.jpg": "/static/media/space.e911605ddb7a06a49740.jpg",
     "static/media/weather-app.jpg": "/static/media/weather-app.1a1368f08075f5e69c56.jpg",
     "static/media/grad-school.jpg": "/static/media/grad-school.4fe41782b651b709c931.jpg",
@@ -13,12 +14,11 @@
     "static/media/artur_rezende.jpg": "/static/media/artur_rezende.35485f73cd94f4cc71e7.jpg",
     "static/media/artur_about_01.jpg": "/static/media/artur_about_01.7e53e69c1d081c2edd17.jpg",
     "static/media/ustora.jpg": "/static/media/ustora.9b5c29bbad3dc7aa7b60.jpg",
-    "static/media/artur-da-silva-rezende.jpg": "/static/media/artur-da-silva-rezende.f0478bd57b843b480a04.jpg",
     "static/media/perfil_frontendmentor.PNG": "/static/media/perfil_frontendmentor.9a4c4b0e9913587beb1e.PNG",
     "index.html": "/index.html",
-    "main.1fc19611.js.map": "/static/js/main.1fc19611.js.map"
+    "main.89f05f4f.js.map": "/static/js/main.89f05f4f.js.map"
   },
   "entrypoints": [
-    "static/js/main.1fc19611.js"
+    "static/js/main.89f05f4f.js"
   ]
 }

@@ -17,29 +17,22 @@ const MainAbout = (props) => {
         <figcaption>
           Me chamo Artur da Silva Rezende, sou graduado em Análise e
           Desenvolvimento de Sistemas pela FANAP - Faculdade Nossa Senhora
-          Aparecida, o término do curso foi agora no final de 2019 e colamos
-          grau em Maio de 2020 por causa do "covid-19". Eu tive contato com as
-          tecnologias de desenvolvimento web a partir do terceiro período, no
-          meu primeiro contato eu acabei tomando gosto, principalmente com as
-          tecnologias voltadas ao front end. A partir disso, eu procurei
-          aprender um pouco mais sobre essas tecnologias, infelizmente muitas
-          delas como o Bootstrap e JQuery por exemplo, não faziam parte da grade
-          da faculdade, e para poder aprender o básico tive que estudar em
-          paralelo.
+          Aparecida, eu tive contato com as tecnologias de desenvolvimento web a
+          partir do terceiro período, no meu primeiro contato eu acabei tomando
+          gosto, principalmente com as tecnologias voltadas ao front-end, foi
+          onde eu acabei decidindo que queria iniciar minha carreia como
+          desenvolvedor front-end.
         </figcaption>
       </AboutFigure>
       <AboutFigure>
         <img src={ArturAbout02} alt="artur_da_silva_rezende_02" />
         <figcaption>
           Com o término do curso, eu decidi, me aprofundar nos estudos
-          relacionados ao Front-end antes de me aventurar no mercado de
-          trabalho, pois, Infelizmente decidimos fazer o nosso projeto final
-          (TCC) utilizando Java, que era a linguagem de programação
-          familiarizada por todos do grupo, e com isso eu acabei dando mais
-          atenção ao Java do que ao Front-end. Não estava nos meus planos
-          começar a trabalhar na área após o término, devido ao meu antigo
-          trabalho e insegurança com minhas habilidades, por isso decidir
-          aprofundar um pouco mais nos estudos.
+          relacionados ao Front-end, o que conseqüentemente me possibilitou
+          aprender novas tecnologias e ver o mercado de trabalho de outra forma,
+          eu acredito que, com o conhecimento que possuo hoje, apesar de não ter
+          experiência de mercado, eu possa estar contribuindo e ajudando com o
+          crescimento das empresas.
         </figcaption>
       </AboutFigure>
     </SectionAbout>

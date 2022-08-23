@@ -14,7 +14,7 @@ import SideBarBtnTablet from "./SideBarBtnTablet";
 import { AsideContents, AsideFigure, AsideContact } from "./SidebarStyle";
 
 //images
-import ArturImg from "./img/artur-da-silva-rezende.jpg";
+import ArturImg from "./img/artur-da-silva-rezende.png";
 import WhatsApp from "./img/whatsapp.png";
 import Linkedin from "./img/linkedin.png";
 import Github from "./img/github.png";
