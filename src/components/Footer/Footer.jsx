@@ -79,7 +79,7 @@ const Footer = (prosp) => {
               <h2>Currículo Físico</h2>
 
               <a
-                href="https://drive.google.com/file/d/1pYTg4FwBGEZYNBrwpNFT2VW9DvmuaYzy/view?usp=sharing/"
+                href="https://drive.google.com/file/d/1hO3UpZcMvxGvHzOYznQtMWhBD6CS8KoE/view?usp=sharing/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -87,7 +87,7 @@ const Footer = (prosp) => {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1rOsAykMiUXL98vdSO1tIVKmFZBKKIgiL/view?usp=sharing/"
+                href="https://drive.google.com/file/d/18TPc8ah1pn9_VEgh7LwhhLQvLeHNBw9-/view?usp=sharing/"
                 target="_blank"
                 rel="noreferrer"
               >

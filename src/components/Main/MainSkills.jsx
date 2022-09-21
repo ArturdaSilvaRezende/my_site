@@ -78,6 +78,7 @@ const MainSkills = (props) => {
               </li>
               <li>Manipulação da DOM</li>
               <li>Conhecimento em ES5 / ES6</li>
+              <li>Consumo de API</li>
               <li>Padrão IIFE</li>
             </ul>
           </figcaption>

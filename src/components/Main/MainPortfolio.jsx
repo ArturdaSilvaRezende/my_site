@@ -19,6 +19,7 @@ import SpaceTourism from "./img/space.jpg";
 import PokeApi from "./img/pokeapi.jpg";
 import WeatherApp from "./img/weather-app.jpg";
 import PlutonTheme from "./img/pluton-theme-react.png";
+import DjozMaster from "./img/djoz-master-react-bg.png";
 import FrontendMentor from "./img/perfil_frontendmentor.PNG";
 
 const MainPortfolio = (props) => {
@@ -238,6 +239,37 @@ const MainPortfolio = (props) => {
                   rel="noreferrer"
                 >
                   Pluton Theme
+                </a>
+              </li>
+            </ul>
+          </figcaption>
+        </PortfolioFigure>
+
+        {/* Pluton Theme */}
+        <PortfolioFigure>
+          <img src={DjozMaster} alt="djoz-master" />
+          <figcaption>
+            <h2>Pluton Theme</h2>
+            <p>Visite o site ou Github do projeto através dos links abaixo.</p>
+            <ul>
+              <li>
+                <span>Site: </span>
+                <a
+                  href="https://djoz-master-react.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Djoz - Master
+                </a>
+              </li>
+              <li>
+                <span>Github: </span>
+                <a
+                  href="https://github.com/ArturdaSilvaRezende/djoz-master-react/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Djoz - Master
                 </a>
               </li>
             </ul>
