@@ -1,9 +1,20 @@
 import styled from "styled-components";
 
 export const SectionAbout = styled.section`
-  background-color: var(--white);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.7);
   margin-top: 30px;
   padding: 20px 20px;
+
+  .about__br {
+    &:after {
+      content: " ";
+      border-bottom: 1px solid var(--white);
+      display: block;
+      width: 90%;
+      margin: 15px auto;
+    }
+  }
 
   @media screen and (min-width: 768px) and (max-width: 992px) {
     margin: 20px 20px 20px 100px;
@@ -13,40 +24,29 @@ export const SectionAbout = styled.section`
 export const AboutFigure = styled.figure`
   display: flex;
 
-  img {
-    display: block;
-    border-radius: 10px;
-    object-fit: cover;
-    height: 350px;
-    margin: 0 auto 30px auto;
+  & + figure {
+    margin-top: 20px;
   }
 
   figcaption {
     line-height: 1.7;
     text-align: justify;
+    text-shadow: 5px 4px 42px var(--gray);
     margin: 0 10px 0 30px;
+    color: var(--white);
   }
 
   @media screen and (min-width: 768px) and (max-width: 1024px) {
-    flex-direction: column;
     figcaption {
       font-size: 1.1rem;
-      margin: 40px 0;
+      margin: 10px 0;
     }
   }
 
   @media screen and (max-width: 767px) {
-    flex-direction: column;
-    img {
-      object-fit: cover;
-      height: 300px;
-      margin: 0 auto;
-      max-width: 100%;
-    }
-
     figcaption {
       font-size: 0.9rem;
-      margin: 40px 0;
+      margin: 10px 0;
     }
   }
 `;

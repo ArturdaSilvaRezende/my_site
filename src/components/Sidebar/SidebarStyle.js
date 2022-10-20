@@ -28,7 +28,7 @@ export const AsideFigure = styled.figure`
         color: var(--white);
 
         &:hover {
-          color: var(--warning);
+          color: var(--gray);
         }
       }
     }
@@ -102,6 +102,7 @@ export const AsideContents = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    margin-left: 20px;
   }
 `;
 
@@ -109,7 +110,7 @@ export const AsideContact = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 25px;
   padding: 5px;
 
   li + li {
@@ -154,6 +155,7 @@ export const AsideBtnMobile = styled.button`
     font-size: 15px;
     width: 40px;
     height: 30px;
+    margin-right: 20px;
   }
 `;
 

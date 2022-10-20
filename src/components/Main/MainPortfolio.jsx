@@ -349,9 +349,9 @@ const MainPortfolio = (props) => {
             (também pode ser usado bibliotecas e frameworks) com o objetivo de
             aprimorar as habilidades na área. Além disso, o próprio site
             autoriza o uso dos desafios concluídos como portfólio. Atualmente eu
-            possuo 6 desafios concluídos, sendo 5 deles feitos em React, e a
+            possuo 8 desafios concluídos, sendo 6 deles feitos em React, e a
             cada desafio concluído, você recebe uma pontuação, e minha pontuação
-            atual e de 145.
+            atual e de 235.
           </p>
           <a
             href="https://www.frontendmentor.io/profile/ArturdaSilvaRezende"

@@ -65,21 +65,21 @@ const MainSkills = (props) => {
               <li>
                 Introdução e base:
                 <span>
-                  variáveis, tipagem, estruturas de repetição, condicionais,
-                  operadores, escopo, funções, classes
+                  variáveis, tipos primitivos, estruturas de repetição,
+                  condicionais, operadores, escopo, funções, classes, iife,
+                  strict, hoisting.
                 </span>
               </li>
               <li>
                 Programação Assíncrona:
                 <span>
-                  setTimeout, setInterval, callback, promises, async-await,
-                  event loop
+                  setTimeout, setInterval, callback, promises, async-await
                 </span>
               </li>
               <li>Manipulação da DOM</li>
+              <li>Manipulação de animações</li>
               <li>Conhecimento em ES5 / ES6</li>
               <li>Consumo de API</li>
-              <li>Padrão IIFE</li>
             </ul>
           </figcaption>
           <img src={javascript} alt="javascript" />
@@ -224,16 +224,16 @@ const MainSkills = (props) => {
                 Tipos de atribuição
                 <span>Explícito, Implícito.</span>
               </li>
-              <li>Tipo "Alias"</li>
               <li>Interface</li>
-              <li>Tipo "Union"</li>
+              <li>Type aliases</li>
+              <li>Type union</li>
               <li>
                 Funções:
                 <span>
                   Tipagem de funções, retorno de tipos, tipagem de parâmetro
                 </span>
               </li>
-              <li>Casting com "as" ou "&lt;&gt;"</li>
+              <li>Casting</li>
               <li>Generics</li>
               <li>Tipos de utilitários</li>
             </ul>

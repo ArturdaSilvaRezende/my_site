@@ -1,42 +1,41 @@
 import styled from "styled-components";
 
 export const SectionSkills = styled.section`
-  background-color: var(--white);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.7);
   margin-top: 30px;
-  padding: 20px 20px;
+  padding: 20px;
 
   @media screen and (min-width: 768px) and (max-width: 992px) {
     margin: 20px 20px 20px 100px;
+  }
+
+  @media screen and (max-width: 599px) {
+    padding: 20px 0;
   }
 `;
 
 export const SkillContents = styled.div`
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  margin-left: 20px;
+
+  @media screen and (max-width: 599px) {
+    margin-left: 0;
+  }
 `;
 
 export const SkillFigure = styled.figure`
   position: relative;
-  border-left: 1px solid var(--gray);
-  border-bottom: 1px solid var(--gray);
+  background-color: var(--white);
   padding: 20px 12px;
-  width: 50%;
+  width: 45%;
+  margin: 10px 10px 0 0;
+  border-radius: 10px;
 
   &:last-child {
-    border-right: 1px solid var(--gray);
-    right: -0.5px;
-    border-bottom: none;
-  }
-
-  &::before {
-    position: absolute;
-    content: "";
-    width: 11px;
-    height: 11px;
-    background: var(--gray-dark);
-    top: 25px;
-    left: -6px;
-    border-radius: 5px;
+    margin: 10px auto 0 30px;
   }
 
   img {
@@ -68,8 +67,24 @@ export const SkillFigure = styled.figure`
     }
   }
 
+  @media screen and (min-width: 993px) and (max-width: 1024px) {
+    &:last-child {
+      margin: 10px auto 0 20px;
+    }
+
+    img {
+      right: 25px;
+      width: 34px;
+      top: 10px;
+    }
+  }
+
   @media screen and (min-width: 768px) and (max-width: 992px) {
-    width: 50%;
+    width: 48%;
+
+    &:last-child {
+      margin: 10px auto 0 5px;
+    }
 
     img {
       right: 25px;
@@ -86,16 +101,32 @@ export const SkillFigure = styled.figure`
     }
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 600px) and (max-width: 767px) {
     width: 100%;
 
     &:last-child {
-      border-right: none;
-      right: 0;
+      margin: 10px 12px 0 auto;
     }
+
     img {
       top: 15px;
-      right: 0;
+      right: 13px;
+    }
+  }
+
+  @media screen and (max-width: 599px) {
+    width: 90%;
+    padding: 20px 0;
+    margin: 15px auto;
+
+    &:last-child {
+      margin: 10px 12px 0 auto;
+    }
+
+    img {
+      top: 10px;
+      right: 15px;
+      width: 40px;
     }
   }
 `;

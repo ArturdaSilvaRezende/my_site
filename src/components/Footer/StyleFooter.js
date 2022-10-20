@@ -1,17 +1,23 @@
 import styled from "styled-components";
 
 export const FooterComponent = styled.footer`
-  background-color: var(--white);
-  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  margin: 30px 0 20px 0;
   padding: 20px 20px;
 
   @media screen and (min-width: 768px) and (max-width: 992px) {
-    margin: 0 20px 0 100px;
+    margin: 5px 0 20px 0;
   }
 
   @media screen and (max-width: 767px) {
     margin-top: 0;
     padding: 10px 35px;
+  }
+
+  @media screen and (max-width: 599px) {
+    width: 90%;
+    margin: 15px auto;
   }
 `;
 
@@ -20,31 +26,37 @@ export const FooterContainer = styled.div`
   flex-wrap: wrap;
 
   @media screen and (min-width: 768px) and (max-width: 992px) {
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
   }
 
   @media screen and (min-width: 376px) and (max-width: 767px) {
-    display: grid;
-    justify-content: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 599px) {
     flex-direction: column;
+    justify-content: center;
   }
 `;
 
 export const FooterFigure = styled.figure`
   display: flex;
   align-items: center;
+  flex-direction: column;
   margin: 30px 30px 30px 0;
+  width: 29%;
 
   figcaption {
-    margin-left: 20px;
+    margin-left: 10px;
 
     a,
     p {
-      color: var(--dark);
-      border-bottom: 1px solid var(--gray);
+      color: var(--white);
+      border-bottom: 1px solid var(--white);
       font-weight: bold;
       font-size: 0.9rem;
     }
@@ -56,16 +68,21 @@ export const FooterFigure = styled.figure`
     }
   }
 
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    width: 40%;
+  }
+
   @media screen and (min-width: 376px) and (max-width: 767px) {
+    width: 33%;
+
     img {
       width: 50px;
     }
   }
 
-  @media screen and (max-width: 330px) {
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
+  @media screen and (max-width: 599px) {
+    width: 90%;
+    margin: 30px auto;
   }
 `;
 
@@ -74,6 +91,6 @@ export const FooterCurriculo = styled.div`
   flex-direction: column;
 
   h2 {
-    color: var(--gray);
+    color: var(--white);
   }
 `;

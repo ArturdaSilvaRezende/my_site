@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
+import BgBody from "./bg-body.jpg";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -7,6 +8,55 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-family: 'Open Sans', sans-serif;
         font-size: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        &:visited {
+          color: var(--danger);
+        }
+    }
+
+    li {
+        list-style: none;
+    }
+
+    button {
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+    }
+
+    body {
+        background: url(${BgBody});
+        background-attachment: fixed;
+        background-size: cover;
+
+      
+
+        @media screen and (max-width: 992px) {
+         background-position: center center;
+     
+         background-repeat: no-repeat;
+        }
+    }
+
+  
+
+    #root {
+      position: relative;
+
+      .bg-rgba {
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    ::selection {
+      background-color: var(--indigo);
+      color: var(--white);
     }
 
     :root {
@@ -32,28 +82,6 @@ export const GlobalStyle = createGlobalStyle`
         --light: #f8f9fa;
         --dark: #343a40;
         --bg-black: #222222;
-    }
-
-    a {
-        text-decoration: none;
-        cursor: pointer;
-        &:visited {
-          color: var(--danger);
-        }
-    }
-
-    li {
-        list-style: none;
-    }
-
-    button {
-      cursor: pointer;
-      background-color: transparent;
-      border: none;
-    }
-
-    body {
-        background-color: var(--warning);
     }
 
     // ================ animations ================
@@ -128,26 +156,28 @@ export const Container = styled.div`
 `;
 
 export const MainTitle = styled.h1`
-  color: var(--info);
+  color: var(--white);
   text-transform: uppercase;
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 
   &::after {
     content: "";
     display: block;
     height: 2px;
-    background-color: var(--info);
+    background-color: var(--white);
     width: 80px;
     margin: 10px auto;
   }
 
   @media screen and (min-width: 768px) and (max-width: 992px) {
     font-size: 1.8rem;
+    margin-bottom: 35px;
   }
 
   @media screen and (max-width: 767px) {
     font-size: 1.5rem;
+    margin-bottom: 20px;
   }
 `;

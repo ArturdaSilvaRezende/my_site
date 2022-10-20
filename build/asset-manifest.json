@@ -1,6 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.89f05f4f.js",
+    "main.js": "/static/js/main.39042b67.js",
+    "static/media/djoz-master-react-bg.png": "/static/media/djoz-master-react-bg.15df8e3b2d5ff2278693.png",
     "static/media/pluton-theme-react.png": "/static/media/pluton-theme-react.2f6967681a7771979794.png",
     "static/media/pizza-delicious.jpg": "/static/media/pizza-delicious.7cfb6e880b24837ac1fe.jpg",
     "static/media/pokeapi.jpg": "/static/media/pokeapi.628d9bc4997171ecbe8d.jpg",
@@ -16,9 +17,9 @@
     "static/media/ustora.jpg": "/static/media/ustora.9b5c29bbad3dc7aa7b60.jpg",
     "static/media/perfil_frontendmentor.PNG": "/static/media/perfil_frontendmentor.9a4c4b0e9913587beb1e.PNG",
     "index.html": "/index.html",
-    "main.89f05f4f.js.map": "/static/js/main.89f05f4f.js.map"
+    "main.39042b67.js.map": "/static/js/main.39042b67.js.map"
   },
   "entrypoints": [
-    "static/js/main.89f05f4f.js"
+    "static/js/main.39042b67.js"
   ]
 }

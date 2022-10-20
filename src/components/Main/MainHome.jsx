@@ -19,10 +19,7 @@ const MainHome = (props) => {
             <h3>
               <Typewriter
                 options={{
-                  strings: [
-                    "Desenvolvedor Front-End Júnior",
-                    "Seja bem vindo(a)!",
-                  ],
+                  strings: ["Front-End Web Developer", "Seja bem vindo(a)!"],
                   autoStart: true,
                   loop: true,
                 }}

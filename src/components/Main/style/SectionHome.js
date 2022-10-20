@@ -1,10 +1,16 @@
 import styled from "styled-components";
 
 export const SectionHome = styled.section`
-  background-color: var(--white);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  margin-top: 20px;
 
   @media screen and (min-width: 768px) and (max-width: 992px) {
-    margin: 0 20px 0 100px;
+    margin: 5px 20px 0 100px;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-top: 60px;
   }
 `;
 
@@ -19,7 +25,7 @@ export const SectionFigure = styled.figure`
 
     hgroup {
       h2 {
-        background-color: var(--info);
+        background-color: var(--gray);
         line-height: 24px;
         letter-spacing: 1px;
         font-weight: bold;
@@ -32,12 +38,12 @@ export const SectionFigure = styled.figure`
 
       h1 {
         margin: 10px 0;
-        color: var(--secondary);
-        font-size: 2.4rem;
+        color: var(--white);
+        font-size: clamp(1.5rem, 3vw, 2.4rem);
       }
 
       h3 {
-        color: var(--secondary);
+        color: var(--white);
         font-size: 1.4rem;
       }
     }
@@ -46,6 +52,7 @@ export const SectionFigure = styled.figure`
   img {
     display: block;
     width: 35.4%;
+    padding: 10px;
   }
 
   @media screen and (max-width: 767px) {
@@ -55,7 +62,7 @@ export const SectionFigure = styled.figure`
 
     img {
       display: block;
-      height: 300px;
+      height: 200px;
       width: 70%;
       object-fit: cover;
       border-radius: 7px;
@@ -76,7 +83,6 @@ export const SectionFigure = styled.figure`
           margin: 0 auto;
         }
         h1 {
-          font-size: 1.7rem;
           margin: 8px 0 5px 0;
         }
         h3 {

@@ -4,16 +4,11 @@ import React from "react";
 import { SectionAbout, AboutFigure } from "./style/SectionAbout";
 import { MainTitle } from "../GlobalStyle";
 
-//images
-import ArturAbout01 from "./img/artur_about_01.jpg";
-import ArturAbout02 from "./img/artur_about_02.jpg";
-
-const MainAbout = (props) => {
+const MainAbout = () => {
   return (
     <SectionAbout id="about">
       <MainTitle>Sobre Mim</MainTitle>
       <AboutFigure>
-        <img src={ArturAbout01} alt="artur_da_silva_rezende_01" />
         <figcaption>
           Me chamo Artur da Silva Rezende, sou graduado em Análise e
           Desenvolvimento de Sistemas pela FANAP - Faculdade Nossa Senhora
@@ -24,12 +19,18 @@ const MainAbout = (props) => {
           desenvolvedor front-end.
         </figcaption>
       </AboutFigure>
+
+      <span className="about__br"></span>
+
       <AboutFigure>
-        <img src={ArturAbout02} alt="artur_da_silva_rezende_02" />
         <figcaption>
           Com o término do curso, eu decidi, me aprofundar nos estudos
           relacionados ao Front-end, o que conseqüentemente me possibilitou
-          aprender novas tecnologias e ver o mercado de trabalho de outra forma,
+          aprender novas tecnologias e ver o mercado de trabalho de outra forma.
+          Com o conhecimento que eu adquiri até aqui, eu construi esse site e
+          todos os projetos contidos na seção portfólio, o que me possibilitou
+          obter experiência em diversos aspectos, como por exemplo, criação de
+          aplicações responsivas, consumo de API, criação de SPA, animações etc.
           eu acredito que, com o conhecimento que possuo hoje, apesar de não ter
           experiência de mercado, eu possa estar contribuindo e ajudando com o
           crescimento das empresas.

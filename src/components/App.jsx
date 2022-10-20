@@ -17,6 +17,7 @@ const App = (props) => {
     <>
       <Store>
         <GlobalStyle />
+        <div className="bg-rgba"></div>
         <Wrapper>
           <Sidebar />
           <Main />
