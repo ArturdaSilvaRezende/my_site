@@ -15,7 +15,7 @@ const MainAbout = () => {
           Aparecida, eu tive contato com as tecnologias de desenvolvimento web a
           partir do terceiro período, no meu primeiro contato eu acabei tomando
           gosto, principalmente com as tecnologias voltadas ao front-end, foi
-          onde eu acabei decidindo que queria iniciar minha carreia como
+          onde eu acabei decidindo iniciar minha carreia como
           desenvolvedor front-end.
         </figcaption>
       </AboutFigure>
