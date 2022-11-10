@@ -89,6 +89,7 @@ export const FooterFigure = styled.figure`
 export const FooterCurriculo = styled.div`
   display: flex;
   flex-direction: column;
+  text-align: center;
 
   h2 {
     color: var(--white);
