@@ -14,7 +14,7 @@ import VideoGraph from "./img/videograph-master.png";
 import GradSchool from "./img/grad-school.jpg";
 import Ustora from "./img/ustora.jpg";
 import WebHost from "./img/webhost.jpg";
-import PizzaDelicious from "./img/pizza-delicious.jpg";
+import PizzaDelicous from "./img/pizza-delicous.png";
 import SpaceTourism from "./img/space.jpg";
 import PokeApi from "./img/pokeapi.jpg";
 import WeatherApp from "./img/weather-app.jpg";
@@ -152,9 +152,9 @@ const MainPortfolio = (props) => {
           </figcaption>
         </PortfolioFigure>
 
-        {/* PizzaDelicious */}
+        {/* PizzaDelicous */}
         <PortfolioFigure>
-          <img src={PizzaDelicious} alt="PizzaDelicious" />
+          <img src={PizzaDelicous} alt="PizzaDelicous" />
           <figcaption>
             <h2>Pizza Delicious</h2>
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
@@ -162,7 +162,7 @@ const MainPortfolio = (props) => {
               <li>
                 <span>Site: </span>
                 <a
-                  href="https://pizza-delicious-project-started.vercel.app/"
+                  href="https://pizza-delicous-react.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -172,7 +172,7 @@ const MainPortfolio = (props) => {
               <li>
                 <span>Github: </span>
                 <a
-                  href="https://github.com/ArturdaSilvaRezende/Pizza-Delicious-project-started/"
+                  href="https://github.com/ArturdaSilvaRezende/pizza-delicous/"
                   target="_blank"
                   rel="noreferrer"
                 >
