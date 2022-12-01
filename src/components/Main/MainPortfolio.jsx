@@ -20,6 +20,7 @@ import PokeApi from "./img/pokeapi.jpg";
 import WeatherApp from "./img/weather-app.jpg";
 import PlutonTheme from "./img/pluton-theme-react.png";
 import DjozMaster from "./img/djoz-master-react-bg.png";
+import ReactQuizApp from "./img/react-quiz-app.jpg";
 import FrontendMentor from "./img/perfil_frontendmentor.PNG";
 
 const MainPortfolio = (props) => {
@@ -332,6 +333,37 @@ const MainPortfolio = (props) => {
                   rel="noreferrer"
                 >
                   React Weather App
+                </a>
+              </li>
+            </ul>
+          </figcaption>
+        </PortfolioFigure>
+
+        {/* React Quiz */}
+        <PortfolioFigure>
+          <img src={ReactQuizApp} alt="React Quiz App" />
+          <figcaption>
+            <h2>React Quiz App</h2>
+            <p>Visite o site ou Github do projeto através dos links abaixo.</p>
+            <ul>
+              <li>
+                <span>Site: </span>
+                <a
+                  href="https://react-quiz-my-app.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  React Quiz App
+                </a>
+              </li>
+              <li>
+                <span>Github: </span>
+                <a
+                  href="https://github.com/ArturdaSilvaRezende/React-Quiz-App/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  React Quiz App
                 </a>
               </li>
             </ul>
