@@ -44,10 +44,11 @@ export const PortfolioFigure = styled.figure`
 
     p {
       width: 80%;
-      margin: 10px auto;
+      margin: 5px auto;
     }
     ul {
       li {
+        margin-bottom: 10px;
         a {
           color: var(--dark);
           border-bottom: 1px solid var(--gray);
@@ -116,7 +117,7 @@ export const PortfolioFrontendMentor = styled.figure`
 
     p {
       margin: 15px 0;
-      text-shadow: 5px 4px 42px var(--gray);
+      text-shadow: 0 0 25px var(--dark-text);
       color: var(--white);
     }
 

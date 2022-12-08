@@ -163,21 +163,6 @@ const MainSkills = (props) => {
           <img src={mysql} alt="mysql" />
         </SkillFigure>
 
-        {/* git */}
-        <SkillFigure>
-          <figcaption>
-            <h2>GIT</h2>
-            <ul>
-              <li>git init, git config, git clone</li>
-              <li>git status, git log, gif diff</li>
-              <li>git branch, git checkout</li>
-              <li>git pull, git fetch, git merge</li>
-              <li>git add, git push, git commit, git reset</li>
-            </ul>
-          </figcaption>
-          <img src={git} alt="git" />
-        </SkillFigure>
-
         {/* react */}
         <SkillFigure>
           <figcaption>
@@ -239,6 +224,21 @@ const MainSkills = (props) => {
             </ul>
           </figcaption>
           <img src={typescript} alt="typescript" />
+        </SkillFigure>
+
+        {/* git */}
+        <SkillFigure>
+          <figcaption>
+            <h2>GIT</h2>
+            <ul>
+              <li>git init, git config, git clone</li>
+              <li>git status, git log, gif diff</li>
+              <li>git branch, git checkout</li>
+              <li>git pull, git fetch, git merge</li>
+              <li>git add, git push, git commit, git reset</li>
+            </ul>
+          </figcaption>
+          <img src={git} alt="git" />
         </SkillFigure>
 
         {/* npm */}

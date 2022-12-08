@@ -37,7 +37,7 @@ const MainPortfolio = (props) => {
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
             <ul>
               <li>
-                <span>Site: </span>
+                <span>Deploy: </span>
                 <a
                   href="https://videograph-master.netlify.app/"
                   target="_blank"
@@ -68,7 +68,7 @@ const MainPortfolio = (props) => {
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
             <ul>
               <li>
-                <span>Site: </span>
+                <span>Deploy: </span>
                 <a
                   href="https://projeto-grad-school-3e43a.web.app/"
                   target="_blank"
@@ -99,7 +99,7 @@ const MainPortfolio = (props) => {
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
             <ul>
               <li>
-                <span>Site: </span>
+                <span>Deploy: </span>
                 <a
                   href="https://projeto-clone-ustora-templates.vercel.app/"
                   target="_blank"
@@ -130,7 +130,7 @@ const MainPortfolio = (props) => {
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
             <ul>
               <li>
-                <span>Site: </span>
+                <span>Deploy: </span>
                 <a
                   href="https://projeto-webhost.vercel.app/"
                   target="_blank"
@@ -161,7 +161,7 @@ const MainPortfolio = (props) => {
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
             <ul>
               <li>
-                <span>Site: </span>
+                <span>Deploy: </span>
                 <a
                   href="https://pizza-delicous-react.netlify.app/"
                   target="_blank"
@@ -192,7 +192,7 @@ const MainPortfolio = (props) => {
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
             <ul>
               <li>
-                <span>Site: </span>
+                <span>Deploy: </span>
                 <a
                   href="https://space-landpage-frontendmentor.netlify.app/"
                   target="_blank"
@@ -223,7 +223,7 @@ const MainPortfolio = (props) => {
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
             <ul>
               <li>
-                <span>Site: </span>
+                <span>Deploy: </span>
                 <a
                   href="https://pluton-theme-react.netlify.app/"
                   target="_blank"
@@ -254,7 +254,7 @@ const MainPortfolio = (props) => {
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
             <ul>
               <li>
-                <span>Site: </span>
+                <span>Deploy: </span>
                 <a
                   href="https://djoz-master-react.netlify.app/"
                   target="_blank"
@@ -285,7 +285,7 @@ const MainPortfolio = (props) => {
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
             <ul>
               <li>
-                <span>Site: </span>
+                <span>Deploy: </span>
                 <a
                   href="https://pokeapi-artur.netlify.app/"
                   target="_blank"
@@ -316,7 +316,7 @@ const MainPortfolio = (props) => {
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
             <ul>
               <li>
-                <span>Site: </span>
+                <span>Deploy: </span>
                 <a
                   href="https://react-weather-app-artur.netlify.app/"
                   target="_blank"
@@ -347,7 +347,7 @@ const MainPortfolio = (props) => {
             <p>Visite o site ou Github do projeto através dos links abaixo.</p>
             <ul>
               <li>
-                <span>Site: </span>
+                <span>Deploy: </span>
                 <a
                   href="https://react-quiz-my-app.netlify.app/"
                   target="_blank"
@@ -377,10 +377,8 @@ const MainPortfolio = (props) => {
           <h2>Meu perfil no Frontend Mentor</h2>
           <p>
             Eu também possuo um perfil no "Frontend Mentor", que é um site que
-            permite ter acesso a diversos desafios envolvendo HTML, CSS e JS
-            (também pode ser usado bibliotecas e frameworks) com o objetivo de
-            aprimorar as habilidades na área. Além disso, o próprio site
-            autoriza o uso dos desafios concluídos como portfólio. Atualmente eu
+            te permite ter acesso a diversos desafios envolvendo HTML, CSS e JS
+            (também pode ser usado bibliotecas e frameworks). Atualmente eu
             possuo 8 desafios concluídos, sendo 6 deles feitos em React, e a
             cada desafio concluído, você recebe uma pontuação, e minha pontuação
             atual e de 235.

@@ -26,6 +26,7 @@ export const AsideFigure = styled.figure`
         align-items: center;
         padding: 7px 25px;
         color: var(--white);
+        transition: 0.4s;
 
         &:hover {
           color: var(--gray);
@@ -53,6 +54,8 @@ export const AsideFigure = styled.figure`
   @media screen and (min-width: 768px) and (max-width: 992px) {
     img {
       display: none;
+      width: 330px;
+      object-fit: center;
     }
 
     ul {

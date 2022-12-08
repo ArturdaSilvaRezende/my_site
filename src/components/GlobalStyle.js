@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
-import BgBody from "./bg-body.jpg";
+import BgBody from "./bg-body.gif";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -31,31 +31,21 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background: url(${BgBody});
         background-attachment: fixed;
-        background-size: cover;
-
-      
-
-        @media screen and (max-width: 992px) {
-         background-position: center center;
-     
-         background-repeat: no-repeat;
-        }
+        background-size: 100% 100%;
     }
-
-  
-
+    
     #root {
       position: relative;
 
       .bg-rgba {
         position: absolute;
         inset: 0;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.9);
       }
     }
 
     ::selection {
-      background-color: var(--indigo);
+      background-color: var(--dark-text);
       color: var(--white);
     }
 
@@ -81,6 +71,7 @@ export const GlobalStyle = createGlobalStyle`
         --danger: #dc3545;
         --light: #f8f9fa;
         --dark: #343a40;
+        --dark-text: #000;
         --bg-black: #222222;
     }
 

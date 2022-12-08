@@ -31,9 +31,9 @@ export const AboutFigure = styled.figure`
   figcaption {
     line-height: 1.7;
     text-align: justify;
-    text-shadow: 5px 4px 42px var(--gray);
     margin: 0 10px 0 30px;
     color: var(--white);
+    text-shadow: 0 0 25px var(--dark-text);
   }
 
   @media screen and (min-width: 768px) and (max-width: 1024px) {
