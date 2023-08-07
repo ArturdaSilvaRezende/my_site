@@ -30,13 +30,9 @@ export const SkillFigure = styled.figure`
   position: relative;
   background-color: var(--white);
   padding: 20px 12px;
-  width: 45%;
+  width: 48%;
   margin: 10px 10px 0 0;
   border-radius: 10px;
-
-  &:last-child {
-    margin: 10px auto 0 30px;
-  }
 
   img {
     display: block;
@@ -53,6 +49,7 @@ export const SkillFigure = styled.figure`
 
     ul {
       margin: 20px 0 10px 30px;
+
       li {
         list-style: decimal;
         margin-bottom: 20px;
@@ -62,6 +59,16 @@ export const SkillFigure = styled.figure`
           margin: 20px 0;
           color: var(--secondary);
           font-weight: 500;
+        }
+
+        .skill__description {
+          li {
+            list-style: circle;
+
+            & + li {
+              margin-top: -15px;
+            }
+          }
         }
       }
     }

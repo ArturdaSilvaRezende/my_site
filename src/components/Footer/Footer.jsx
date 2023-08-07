@@ -40,6 +40,7 @@ const Footer = (prosp) => {
           <img src={Gmail} alt="Gmail" />
           <figcaption>
             <p>arturrezende4@gmail.com</p>
+            <p>artursrezende@gmail.com</p>
           </figcaption>
         </FooterFigure>
 
@@ -79,7 +80,7 @@ const Footer = (prosp) => {
               <h2>Currículo Físico</h2>
 
               <a
-                href="https://drive.google.com/file/d/1fT65uGtFAhtuHxFen7BYV547_ao27x_Q/view?usp=share_link/"
+                href="https://drive.google.com/file/d/1QntbxH53IquolvP3FwJVaU8OYOVel7tb/view?usp=drive_link/"
                 target="_blank"
                 rel="noreferrer"
               >

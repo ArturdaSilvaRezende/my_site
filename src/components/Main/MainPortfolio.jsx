@@ -225,7 +225,7 @@ const MainPortfolio = (props) => {
               <li>
                 <span>Deploy: </span>
                 <a
-                  href="https://pluton-theme-react.netlify.app/"
+                  href="https://pluton-react.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -235,7 +235,7 @@ const MainPortfolio = (props) => {
               <li>
                 <span>Github: </span>
                 <a
-                  href="https://github.com/ArturdaSilvaRezende/Pluton-Theme-React/"
+                  href="https://github.com/ArturdaSilvaRezende/pluton-react/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -256,7 +256,7 @@ const MainPortfolio = (props) => {
               <li>
                 <span>Deploy: </span>
                 <a
-                  href="https://djoz-master-react.netlify.app/"
+                  href="https://imagine-music-festival.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

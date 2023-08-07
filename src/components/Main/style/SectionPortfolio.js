@@ -97,7 +97,9 @@ export const PortfolioFrontendMentor = styled.figure`
   padding-top: 40px;
   display: flex;
   flex-direction: column;
-  border-top: 1px solid var(--gray);
+  border-top: 3px solid var(--white);
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
 
   img {
     margin: 0 auto;
@@ -108,7 +110,7 @@ export const PortfolioFrontendMentor = styled.figure`
     margin-top: 20px;
     line-height: 1.8;
     text-align: center;
-    padding: 0 10px;
+    padding: 20px 10px;
     font-size: 0.9rem;
 
     h2 {
@@ -116,8 +118,9 @@ export const PortfolioFrontendMentor = styled.figure`
     }
 
     p {
+      font-weight: 700;
       margin: 15px 0;
-      text-shadow: 0 0 25px var(--dark-text);
+      text-shadow: 1px 1px 25px var(--blue);
       color: var(--white);
     }
 

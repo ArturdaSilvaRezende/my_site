@@ -29,11 +29,15 @@ export const AboutFigure = styled.figure`
   }
 
   figcaption {
+    border-radius: 10px;
     line-height: 1.7;
     text-align: justify;
     margin: 0 10px 0 30px;
-    color: var(--white);
-    text-shadow: 0 0 25px var(--dark-text);
+    color: #000;
+    font-weight: 400;
+    background-color: var(--white);
+    padding: 10px;
+    box-shadow: 1px 1px 15px #fff;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1024px) {
