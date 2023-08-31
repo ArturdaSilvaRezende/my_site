@@ -22,6 +22,7 @@ import PlutonTheme from "./img/pluton-theme-react.png";
 import DjozMaster from "./img/djoz-master-react-bg.png";
 import ReactQuizApp from "./img/react-quiz-app.jpg";
 import FrontendMentor from "./img/perfil_frontendmentor.PNG";
+import Baker from "./img/baker.png";
 
 const MainPortfolio = (props) => {
   return (
@@ -339,6 +340,36 @@ const MainPortfolio = (props) => {
           </figcaption>
         </PortfolioFigure>
 
+        {/* baker*/}
+        <PortfolioFigure>
+          <img src={Baker} alt="Baker" />
+          <figcaption>
+            <h2>Baker Bakery</h2>
+            <p>Visite o site ou Github do projeto através dos links abaixo.</p>
+            <ul>
+              <li>
+                <span>Deploy: </span>
+                <a
+                  href="https://baker-bakery-project.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Baker Bakery
+                </a>
+              </li>
+              <li>
+                <span>Github: </span>
+                <a
+                  href="https://github.com/ArturdaSilvaRezende/Baker/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Baker Bakery
+                </a>
+              </li>
+            </ul>
+          </figcaption>
+        </PortfolioFigure>
         {/* React Quiz */}
         <PortfolioFigure>
           <img src={ReactQuizApp} alt="React Quiz App" />

@@ -6,7 +6,6 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        font-family: 'Open Sans', sans-serif;
         font-size: 100%;
     }
 
@@ -32,6 +31,7 @@ export const GlobalStyle = createGlobalStyle`
         background: url(${BgBody});
         background-attachment: fixed;
         background-size: 100% 100%;
+        font-family: 'Roboto', sans-serif;
     }
     
     #root {
@@ -45,7 +45,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     ::selection {
-      background-color: var(--bg-black);
+      background-color: var(--danger);
       color: var(--white);
       padding: 10px;
       font-weight: 700;
@@ -74,6 +74,7 @@ export const GlobalStyle = createGlobalStyle`
         --light: #f8f9fa;
         --dark: #343a40;
         --dark-text: #000;
+        --black: #000;
         --bg-black: #222222;
     }
 

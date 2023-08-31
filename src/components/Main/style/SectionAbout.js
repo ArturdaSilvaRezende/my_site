@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SectionAbout = styled.section`
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.7);
   margin-top: 30px;
   padding: 20px 20px;
@@ -33,11 +33,10 @@ export const AboutFigure = styled.figure`
     line-height: 1.7;
     text-align: justify;
     margin: 0 10px 0 30px;
-    color: #000;
-    font-weight: 400;
+    color: var(--black);
+    font-weight: 500;
     background-color: var(--white);
     padding: 10px;
-    box-shadow: 1px 1px 15px #fff;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1024px) {
