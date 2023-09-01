@@ -40,15 +40,13 @@ export const GlobalStyle = createGlobalStyle`
       .bg-rgba {
         position: absolute;
         inset: 0;
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 0, 0, 0.8);
       }
     }
 
     ::selection {
-      background-color: var(--danger);
+      background-color: var(--gray);
       color: var(--white);
-      padding: 10px;
-      font-weight: 700;
     }
 
     :root {

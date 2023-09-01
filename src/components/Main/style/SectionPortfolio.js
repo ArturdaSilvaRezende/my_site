@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SectionPortfolio = styled.section`
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.7);
   margin-top: 30px;
   padding: 20px 20px 50px 20px;
@@ -94,14 +94,13 @@ export const PortfolioFigure = styled.figure`
 `;
 
 export const PortfolioFrontendMentor = styled.figure`
-  padding-top: 40px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
-  border-top: 3px solid var(--white);
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
+  border-top: 1px solid var(--white);
 
   img {
+    border-radius: 10px;
     margin: 0 auto;
     display: block;
   }
@@ -119,9 +118,10 @@ export const PortfolioFrontendMentor = styled.figure`
 
     p {
       font-weight: 700;
-      margin: 15px 0;
-      text-shadow: 1px 1px 25px var(--blue);
+      margin: 15px auto;
+      text-shadow: 1px 1px 2px var(--black);
       color: var(--white);
+      width: 90%;
     }
 
     a {
@@ -148,6 +148,8 @@ export const PortfolioFrontendMentor = styled.figure`
 
   @media screen and (max-width: 767px) {
     padding: 10px;
+    margin: 0 auto;
+    width: 90%;
 
     img {
       width: 100%;
@@ -162,6 +164,7 @@ export const PortfolioFrontendMentor = styled.figure`
 
       p {
         font-size: 0.9rem;
+        width: 100%;
       }
     }
   }

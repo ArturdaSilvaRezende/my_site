@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SectionSkills = styled.section`
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.7);
   margin-top: 30px;
   padding: 20px;
